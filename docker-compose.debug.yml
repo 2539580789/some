@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  codeproject:
+    image: codeproject
+    build:
+      context: .
+      dockerfile: ./Dockerfile
